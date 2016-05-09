@@ -23,7 +23,7 @@ body {
     padding: 0 0;
     margin: 0 0;
     font-family: "Dosis,, Verdana, Calibri, sans-serif";
-    background: url(tumblr_inline_nn98zgwJ6V1so3sl9_1280.png) no-repeat;
+    background: url("background.jpg") no-repeat;
     background-size: cover;
     z-index: -1;
     min-height: 100%;
