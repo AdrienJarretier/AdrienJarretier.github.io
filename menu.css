@@ -1,0 +1,86 @@
+﻿html {
+    height: 100%;
+}
+
+.cadre {
+    padding: 30px;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    margin: 50px auto;
+    background: #101010;
+    text-align: center;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.cadre a {
+    text-decoration: none;
+}
+
+body {
+    padding: 0 0;
+    margin: 0 0;
+    font-family: "Dosis,, Verdana, Calibri, sans-serif";
+    background: url(tumblr_inline_nn98zgwJ6V1so3sl9_1280.png) no-repeat;
+    background-size: cover;
+    z-index: -1;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+p {
+    color: orange;
+}
+
+.bouton {
+    background: #4b6446 no-repeat;
+    border-radius: 10px;
+    border: 1px solid purple;
+    box-shadow: 1px 1px 10px black;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    vertical-align: middle;
+    border: 0px black solid;
+    text-align: center;
+}
+
+nav {
+    border: 0px black solid;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    /*retire les puces--*/
+    margin: auto auto;
+    padding: 6px 0;
+    display: inline-block;
+}
+
+.bouton:link {
+    color: yellow;
+}
+
+.bouton:visited {
+    color: gold;
+}
+
+.bouton:hover {
+    color: white;
+    background: #9f0f40 no-repeat;
+    opacity: 1;
+}
