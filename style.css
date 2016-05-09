@@ -84,3 +84,12 @@ nav ul {
     background: #9f0f40 no-repeat;
     opacity: 1;
 }
+
+canvas {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
