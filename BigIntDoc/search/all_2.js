@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pow',['pow',['../classBigInt.html#a824f69bb27ca53c56d6f74872065f633',1,'BigInt']]]
+  ['comparisons',['comparisons',['../classBigIntTests.html#a2058762964bdd61bd9940d7c5247d542',1,'BigIntTests']]]
 ];
