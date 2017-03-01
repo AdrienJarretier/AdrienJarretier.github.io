@@ -39,7 +39,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -91,14 +90,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">BigInt Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>The main class, instanciates to use like an integer.  
+ <a href="classBigInt.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="BigInt_8hpp_source.html">BigInt.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a613e9de2a692f61e1ba85b433af380c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInt.html#a613e9de2a692f61e1ba85b433af380c8">BigInt</a> (std::string val=&quot;0&quot;)</td></tr>
-<tr class="memdesc:a613e9de2a692f61e1ba85b433af380c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classBigInt.html">BigInt</a> from string representing the integer in binary.  <a href="#a613e9de2a692f61e1ba85b433af380c8">More...</a><br /></td></tr>
+<tr class="memdesc:a613e9de2a692f61e1ba85b433af380c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classBigInt.html" title="The main class, instanciates to use like an integer. ">BigInt</a> from string representing the integer in binary.  <a href="#a613e9de2a692f61e1ba85b433af380c8">More...</a><br /></td></tr>
 <tr class="separator:a613e9de2a692f61e1ba85b433af380c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2d9aed1aeff8bcb1a1d7a59add76a2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInt.html#af2d9aed1aeff8bcb1a1d7a59add76a2c">BigInt</a> (long long val)</td></tr>
-<tr class="memdesc:af2d9aed1aeff8bcb1a1d7a59add76a2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classBigInt.html">BigInt</a> from a long long integer.  <a href="#af2d9aed1aeff8bcb1a1d7a59add76a2c">More...</a><br /></td></tr>
+<tr class="memdesc:af2d9aed1aeff8bcb1a1d7a59add76a2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classBigInt.html" title="The main class, instanciates to use like an integer. ">BigInt</a> from a long long integer.  <a href="#af2d9aed1aeff8bcb1a1d7a59add76a2c">More...</a><br /></td></tr>
 <tr class="separator:af2d9aed1aeff8bcb1a1d7a59add76a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35bd468d1f1b248fa8601e98d9e28095"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInt.html#a35bd468d1f1b248fa8601e98d9e28095">BigInt</a> (const <a class="el" href="classBigInt.html">BigInt</a> &amp;other)</td></tr>
 <tr class="memdesc:a35bd468d1f1b248fa8601e98d9e28095"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a35bd468d1f1b248fa8601e98d9e28095">More...</a><br /></td></tr>
@@ -149,7 +153,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const
 <a class="el" href="classBigInt.html">BigInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> (const <a class="el" href="classBigInt.html">BigInt</a> &amp;factor1, const <a class="el" href="classBigInt.html">BigInt</a> &amp;factor2)</td></tr>
 <tr class="separator:a67e032d3b3eeed3dcb541c265e862cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The main class, instanciates to use like an integer. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a613e9de2a692f61e1ba85b433af380c8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -164,7 +170,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a <a class="el" href="classBigInt.html">BigInt</a> from string representing the integer in binary. </p>
+<p>Constructs a <a class="el" href="classBigInt.html" title="The main class, instanciates to use like an integer. ">BigInt</a> from string representing the integer in binary. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">val</td><td>Integer in base 2, negative if starts with '1', positive if starts with '0' </td></tr>
@@ -188,7 +194,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a <a class="el" href="classBigInt.html">BigInt</a> from a long long integer. </p>
+<p>Constructs a <a class="el" href="classBigInt.html" title="The main class, instanciates to use like an integer. ">BigInt</a> from a long long integer. </p>
 
 </div>
 </div>
@@ -209,7 +215,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const
 <p>Copy constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">other</td><td>The <a class="el" href="classBigInt.html">BigInt</a> to copy </td></tr>
+    <tr><td class="paramname">other</td><td>The <a class="el" href="classBigInt.html" title="The main class, instanciates to use like an integer. ">BigInt</a> to copy </td></tr>
   </table>
   </dd>
 </dl>
